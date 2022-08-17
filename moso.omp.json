@@ -7,7 +7,7 @@
                 {
                     "foreground": "#FF80BF",
                     "style": "plain",
-                    "template": "#{{ .UserName }} ",
+                    "template": "# {{ .UserName | lower }} ",
                     "type": "session"
                 },
                 {
@@ -28,10 +28,10 @@
                 {
                     "foreground": "#9384FF",
                     "properties": {
-                        "branch_icon": "\ue0a0 "
+                        "branch_icon": " \ufb2b"
                     },
                     "style": "plain",
-                    "template": " <#8AFF80>git(</>{{ .HEAD }}<#8AFF80>)</>",
+                    "template": " <#8AFF80>\uf408</> {{ .HEAD }}<#8AFF80></>",
                     "type": "git"
                 },
                 {
@@ -48,9 +48,9 @@
             "newline": true,
             "segments": [
                 {
-                    "foreground": "#63F08C",
+                    "foreground": "#FFFF80",
                     "style": "plain",
-                    "template": "➜ ",
+                    "template": "\ufb0c",
                     "type": "text"
                 }
             ],
