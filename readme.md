@@ -1,1 +1,1 @@
-This is a mix of star and zash
+Inspired by star and zash.
