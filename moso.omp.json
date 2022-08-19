@@ -33,12 +33,6 @@
                     "style": "plain",
                     "template": " <#8AFF80>\uf408</> {{ .HEAD }}<#8AFF80></>",
                     "type": "git"
-                },
-                {
-                    "foreground": "#FFFFFF",
-                    "style": "plain",
-                    "template": " ",
-                    "type": "exit"
                 }
             ],
             "type": "prompt"
