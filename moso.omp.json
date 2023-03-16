@@ -5,19 +5,19 @@
             "alignment": "left",
             "segments": [
                 {
-                    "foreground": "#FF80BF",
+                    "foreground": "#f38ba8",
                     "style": "plain",
                     "template": "# {{ .UserName | lower }} ",
                     "type": "session"
                 },
                 {
-                    "foreground": "#FFFFFF",
+                    "foreground": "#cdd6f4",
                     "style": "plain",
                     "template": "@",
                     "type": "text"
                 },
                 {
-                    "foreground": "#86DDF0",
+                    "foreground": "#74c7ec",
                     "properties": {
                         "style": "folder"
                     },
@@ -26,12 +26,12 @@
                     "type": "path"
                 },
                 {
-                    "foreground": "#9384FF",
+                    "foreground": "#b4befe",
                     "properties": {
                         "branch_icon": " \ufb2b"
                     },
                     "style": "plain",
-                    "template": " <#8AFF80>\uf408</> {{ .HEAD }}<#8AFF80></>",
+                    "template": " <#a6e3a1>\uf408</> {{ .HEAD }}<#a6e3a1></>",
                     "type": "git"
                 }
             ],
@@ -42,7 +42,7 @@
             "newline": true,
             "segments": [
                 {
-                    "foreground": "#FFFF80",
+                    "foreground": "#f9e2af",
                     "style": "plain",
                     "template": "\ufb0c",
                     "type": "text"
