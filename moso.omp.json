@@ -31,7 +31,7 @@
                         "branch_icon": " \ufb2b"
                     },
                     "style": "plain",
-                    "template": " <#a6e3a1>\uf408</> {{ .HEAD }}<#a6e3a1></>",
+                    "template": " <#a6e3a1>\uf408 </> {{ .HEAD }}<#a6e3a1></>",
                     "type": "git"
                 }
             ],
