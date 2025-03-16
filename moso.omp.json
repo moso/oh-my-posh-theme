@@ -44,7 +44,7 @@
                 {
                     "foreground": "#f9e2af",
                     "style": "plain",
-                    "template": "\ufb0c",
+                    "template": "\u279c ",
                     "type": "text"
                 }
             ],
@@ -52,5 +52,5 @@
         }
     ],
     "final_space": true,
-    "version": 2
+    "version": 3
 }
